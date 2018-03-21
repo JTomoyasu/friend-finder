@@ -1,8 +1,8 @@
 var friends=[
-    {
-        "name":"John",
-        "photo":"",
-        "scores":[
+    { 
+        name:"John",
+        photo:"https://images.pexels.com/photos/831993/pexels-photo-831993.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb",
+        scores:[
             3,
             3,
             3,
@@ -14,7 +14,39 @@ var friends=[
             3,
             3
         ]
-    }
+    },
+    {
+        name:"Jim",
+        photo:"https://images.pexels.com/photos/735551/pexels-photo-735551.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb",
+        scores:[
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            5,
+            5,
+            5,
+            5
+        ]
+    },
+    {
+        name:"Ahmed",
+        photo:"https://images.pexels.com/photos/655806/pexels-photo-655806.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb",
+        scores:[
+            5,
+            1,
+            4,
+            4,
+            5,
+            1,
+            2,
+            5,
+            4,
+            1
+          ]
+      }
 ];
 
 module.exports=friends;
