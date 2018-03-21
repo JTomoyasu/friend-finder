@@ -43,7 +43,7 @@
             <div class="modal-header">
                 <span class="close">&times;</span>
                 <h1>Here's your match</h1>
-                <p id="friendName">Name: </p>
+                <h2 id="friendName">Name: </h2>
                 <img src="" alt="" id="friendImg">
             </div>
         </div>
@@ -216,7 +216,7 @@
                 scores: userScores
             }
             $.post("/api/friends", newUser, function (data) {
-                $("#friendName").text(data.name);
+                $("#friendName").text("Name: "+data.name);
                 $("#friendImg").attr("src", data.photo);
                 document.getElementById("friendMatch").style.display = "block";
                 $("#user-name").val("");
